@@ -1,0 +1,1536 @@
+/* 
+CLASS'S IN A NUTSHELL CUZ IM GETTING LOST
+
+
+
+
+
+
+
+allmax -- very first div in the head of the website ## DIV
+    all2 -- inside allmax ## DIV
+        all1 -- inside all2 ## DIV
+            group1 -- contains all the details next to the picture ## DIV
+                logo1 -- inside group1
+                title -- container that i tried to make look good
+                text1 -- inside group1 (nothing special) 
+                div -- unnamed div that contains more details ## DIV
+                    row1 -- first container that contains the buttons but are actually just divs ##1 DIV
+                        foo -- unnamed div
+                        foo -- unnamed div
+                    row2 -- second container that contains the buttons but are actually just divs ##2 DIV
+                        ...
+                    row3 -- third container that contains the buttons but are actually just divs ##3 DIV
+                        ...
+                enter -- button... i guess?
+
+## END OF TEXT AREA
+
+            group2 -- contains all the details that are placed inside the image ## DIV
+                img -- background image ## DIV
+                    special3 -- container ## DIV
+                        special4 -- container ## DIV
+                            logo2 -- menu logo
+                            button1 -- button that doesnt work but is suppost to turn you to the next page
+                            special2 -- container ## DIV
+                                special1 -- container for the social media logos ## DIV
+                                    text2 -- text ig...
+                                    row11 -- container for the images
+
+## END OF IMAGE/TEXT
+
+## END OF HEAD
+
+allmax1 -- cards... ## DIV
+    oisdzjv -- first card ## DIV
+        all5 -- container ## DIV
+            div -- unnamed div ## DIV
+                foo2 -- container ## DIV
+                    foo3 -- container ## DIV
+                        group5 -- start of the card (visually) ## DIV
+                            raah -- image container so i can position it properly ## DIV
+                            group6 -- container that contains a lot of text ## DIV
+                                title2 -- title?...
+                                text3 -- text...
+                                button2 -- view case thingie
+
+## END OF FIRST CARD                                
+
+rews -- is this meant to say revs?... anyway its the same thing but just flipped
+    (however instead of - raah - its group7... why? have zero clue)
+    
+## END OF SECOND CARD
+
+(theres legit a copy of - allmax1- so uh yea...)
+
+...
+
+## END OF THIRD CARD
+
+## IF I SCREW UP ANYTHING ITS PROBABLY BECAUSE OF THE HORRIBLE POSITIONING AND STUFF LIKE THAT
+
+button3 -- just says view all projects
+
+## END OF CARD SECTION
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+    .right{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 100%;
+    }
+    .left{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        margin-left: 210px;
+        border: 2px solid black;
+        border-radius: 100%;
+    }
+    .reviews h1{
+        margin-left: 960px;
+    }
+    .reviews div{
+        display: flex;
+        flex-direction: row;
+    }
+    .left{
+        margin-left: 900px;
+    }
+    body{
+        margin: 0px;
+    }
+    .phonecenter123{
+        display: none;
+    }
+    body{
+        padding-top: 0px;
+    }
+    .ALL{
+        margin-top: 0px;
+    }
+    body footer{
+        height: 1000px;
+    }
+    .two234 h1{
+        color: white;
+        font-size: 70px;
+        font-family: sans-serif;
+    }
+    .button6{
+        background: none;
+        border: none;
+        color: #008FFF;
+    }
+    .two234{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .center22{
+        display: none;
+    }
+    .special6243{
+        display: flex;
+        flex-direction: row;
+    }
+    .phonesocials{
+        display: none;
+    }
+    .ALL{
+        display: flex;
+        justify-content: center;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    .img{
+        width: 624px;
+        height: 1009px;
+        background-image: url(/assets/asset1.jpeg);
+        margin-left: 50px;
+    }
+    
+    .one{
+        margin: 1px;
+        font-family: sans-serif, solid;
+        font-weight: 900;
+        size: 80px;
+        color: #324254;
+    }
+    .two{
+        margin: 1px;
+        font-family: sans-serif, solid;
+        font-weight: 900;
+        size: 80px;
+        color: #324254;
+    }
+    .special {
+        margin-top: 15px;
+        margin: 1px;
+        font-family: sans-serif, solid;
+        font-weight: 900;
+        border: 1px;
+        border-color: #324254;
+        color: #324254;
+    }
+    .title{
+        padding: 1px;
+    }
+    .title h1{
+        font-size: 55px;
+    }
+    .logo1{
+        margin-bottom: 50px;
+        margin-top: 25px
+    }
+    .all1{
+        display: flex;
+        /* justify-content: flex; */
+    }
+    .all2{
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    .text1{
+        font-family: sans-serif;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        size: 18px;
+    }
+    .row1 button{
+        size: 18px;
+        height: 54px;
+    }
+    .row2 button{
+        size: 18px;
+        height: 54px;
+    }
+    .row3 button{
+        size: 18px;
+        height: 54px;
+    }
+    .foo{
+        border: none;
+        border-radius: 3px;
+        size: 18px;
+        padding-left: 16px;
+        padding-top: auto;
+        padding-right: 16px;
+        padding-bottom: auto;
+        margin: 6px;
+        border-color: #D4D6D7;
+    }
+    .enter{
+        margin-top: 15px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 6px;
+        border-radius: 7px;
+        size: 18px;
+        margin-top: 70px;
+        box-shadow: 7px 10px 10px #0091ff68;
+        background-color: #008FFF;
+        border: #008FFF;
+        color: white;
+    }
+    .img{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        padding-right: 1px;
+    }
+    .special1{
+        background-color: rgba(0, 0, 0, 0.486);
+        width: 624px;
+    }
+    .special2{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 624px;
+    }
+    .special3{
+        margin-top: 0px;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction: column;
+        width: 624px;
+        height: 1009px;
+    }
+    .logo2{
+        margin-top: 30px;
+        margin-left: 555px;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 25px;
+        height: 25px;
+    }
+    .button1{
+        background: none;
+        border: none;
+        padding-right: 0px;
+        padding-left: 15px;
+        margin-left: 526px;
+        width: 100px;
+        height: 300px;
+    }
+    .special4{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 624px;
+        height: 1009px;
+        margin-top: 0px;
+        margin-bottom: auto;
+        padding: 10px;
+    }
+    .special1{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-right: 9px;
+        width: 304px;
+        height: 105px;
+    }
+    .text2{
+        font-family: sans-serif;
+        color: white;
+        margin-left: 20px;
+    }
+    .row11 img{
+        height: 24px;
+        width: 24px;
+    }
+    .row11{
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    .logo2{
+        margin-right: 50px;
+    }
+    .group3{
+        margin-left: 50px;
+        display: inline-block;
+    }
+    .group4{
+        width: 600px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .group5{
+        display: inline-block;
+        height: 442px;
+        width: 590px;
+    }
+    .all6{
+        margin-top: 170px;
+        display: block;
+    }
+    .all4{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    .all3{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    .all5{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    .foo1{
+        margin-right: 50px;
+    }
+    .img1{
+        height: 442px;
+        width: 590px;
+    }
+    .group4 img{
+        height: 442px;
+        width: 590px;
+    }
+    .img2{
+        height: 442px;
+        width: 590px;
+    }
+    .foo2{
+        display: flex;
+        justify-content: center;
+    }
+    .group5{
+        display: flex;
+        flex-direction: row;
+    }
+    .foo3{
+        display: inline-block;
+    }
+    .group6{
+        margin-left: 50px;
+    }
+    .group7{
+        margin-right: 50px;
+    }
+    .all5{
+        margin-bottom: 50px;
+        margin-top: 150px;
+    }
+    .group6{
+        height: 442px;
+        width: 590px;
+    }
+    .title2{
+        color: #324254;
+        font-family: sans-serif;
+        width: 200px;
+    }
+    .text3{
+        color: #324254;
+        font-family: sans-serif;
+        width: 300px;
+    }
+    .button2{
+        width: 158px;
+        height: 70px;
+        border-radius: 10px;
+        background-color: #324254;
+        border: none;
+        color: white;
+        font-family: sans-serif;
+    }
+    .allmax1{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .button3{
+        background: none;
+        border: none;
+        color: #008FFF;
+        font-family: sans-serif;
+    }
+    .people{
+        display: inline-block;
+        justify-content: flex;
+        overflow: none;
+    }
+    .displayinline{
+        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .man{
+        width: 588px;
+        height: 240px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        background-color: #3242540a;
+        border-radius: 10px;
+    }
+    .text4{
+        width: 524px;
+        height: 72px;
+    }
+    .img2{
+        padding: 15px;
+        height: 60px;
+        width: 60px;
+    }
+    .foo4{
+        display: inline-block;
+        justify-content: flex;
+    }
+    .title3{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: sans-serif;
+    }
+    .text5{
+        color: #324254;
+        margin-top: 0px;
+        font-family: sans-serif;
+    }
+    .text4{
+        color: #324254;
+        margin: 15px;
+        font-family: sans-serif;
+    }
+    .reviews h1{
+        color: #324254;
+        color: black;
+        font-family: sans-serif;
+    }
+    .reviews{
+        margin-left: 310px;
+        display: flex;
+        justify-content: center;
+        width: 500px;
+    }
+    .foo5{
+        display: inline-block;
+        justify-content: flex;
+    }
+    .text6{
+        overflow: none;
+        opacity: 50%;
+        color: #324254;
+        margin-top: 0px;
+        font-family: sans-serif;
+    }
+    .title4{
+        display: flex;
+        overflow: none;
+    }
+    .faint{
+        overflow-x: hidden;
+        opacity: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .img3{
+        padding: 15px;
+        height: 60px;
+        width: 60px;
+        opacity: 50%;
+    }
+    .stext{
+        width: 400px;
+        overflow-x: hidden;
+        opacity: 50%;
+        color: #324254;
+    }
+    .ajs{
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: row;
+    }
+    .jso{
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    .uuu{
+        width: 500px;
+        overflow-x: hidden;
+    }
+    .img4{
+        height: 211px;
+        width: 211px;
+    }
+    /* for phone only!!!!!!!!! */
+    /* .people1{
+        display: block;
+    }
+    .row12{
+        display: inline-block;
+    }
+    .row22{
+        display: inline-block;
+    } */
+    .people1{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .row12{
+        display: flex;
+        flex-direction: row;
+    }
+    .row22{
+        display: flex;
+        flex-direction: row;
+    }
+    .button4{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .button41{
+        width: 100px;
+        height: 50px;
+        background: none;
+        border: 1px solid #324254;
+        color: #324254;
+        border-radius: 5px;
+    }
+    .title5{
+        color: #324254;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .ute{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .text7{
+        color: #324254;
+        font-family: sans-serif;
+    }
+    .text8{
+        color: #324254;
+        font-family: sans-serif;
+        margin-left: 10px;
+    }
+    .foo7{
+        display: flex;
+        justify-content: center;
+    }
+    .closed{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+    .arrow1{
+        margin-left: 550px;
+    }
+    .arrow2{
+        margin-left: 594px;
+    }
+    .arrow3{
+        margin-left: 545px;
+    }
+    .arrow4{
+        margin-left: 679px;
+    }
+    .border1{
+        padding: 10px;
+        border: none;
+        margin-bottom: 15px;
+        background-color: #32425411;
+    }
+    .border{
+        border: 1px solid #324254;
+        margin-bottom: 15px;
+    }
+    .border2{
+        border: 1px solid #324254;
+    }
+    .border3{
+        border: 1px solid #324254;
+        margin-bottom: 15px;
+        margin-top: 45px;
+    }
+    .special5{
+        margin-left: 15px;
+        color: #324254;
+        font-family: sans-serif;
+    }
+    .u{
+        font-family: sans-serif;
+        color: #324254;
+    }
+    .closed p{
+        color: #324254;
+        font-family: sans-serif;
+    }
+    .foo7{
+        margin-top: 285px;
+        margin-bottom: 150px;
+    }
+    footer{
+        height: 900px;
+        background-image: linear-gradient(rgb(45, 49, 101), rgb(28, 30, 51));
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .u h1{
+        color: white;
+        font-family: sans-serif;
+        font-size: 50px;
+        margin-top: 130px;
+    }
+    .one1{
+        margin-top: 420px;
+        display: flex;
+        justify-content: center;
+    }
+    /* .two2{
+        display: flex;
+    } */
+    .button5{
+        background-color: #008FFF;
+        border-radius: 7px;
+        border-color: #008FFF;
+        color: white;
+        width: 180px;
+        height: 50px;
+    }
+    .terms{
+        color: white;
+        font-family: sans-serif;
+        display: inline-block;
+        margin-right: 35px;
+    }
+    .terms1{
+        color: white;
+        font-family: sans-serif;
+        display: inline-block;
+        margin-right: 35px;
+    }
+    .terms2{
+        color: white;
+        font-family: sans-serif;
+        display: inline-block;
+    }
+    .details p{
+        color: #324254;
+        font-family: sans-serif;
+    }
+    .three3{
+        font-family: sans-serif;
+        color: #324254;
+    }
+    .foo6{
+        margin: 10px;
+    }
+    .one12{
+        display: flex;
+    }
+    .four4{
+        margin-left: 500px;
+    }
+    .phone1{
+        display: none;
+    }
+    .oisdzjv{
+        margin-right: 150px;
+    }
+    .rews{
+        margin-right: 300px;
+    }
+    .oisdzjv1{
+        margin-right: 150px;
+        margin-bottom: 100px;
+    }
+    .button3{
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* phone time!!!! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 479px) {
+    .phonesocials{
+        display: none;
+    }
+    .row45 img{
+        margin-right: 30px;
+    }
+    .row44 img{
+        margin-bottom: 30px;
+        margin-right: 30px;
+    }
+    .imgss{
+        margin-top: 50px;
+    }
+    .texts{
+        margin-top: 30px;
+    }
+    .copyright{
+        margin-top: 30px;
+        font-family: sans-serif;
+        color: white;
+    }
+    .location{
+        font-family: sans-serif;
+        color: grey;
+    }
+    .row55 p{
+        font-family: sans-serif;
+        color: white;
+        margin-right: 10px;
+    }
+    .row55{
+        display: flex;
+        flex-direction: row;
+    }
+    .row54 p{
+        font-family: sans-serif;
+        color: white;
+        margin-right: 10px;
+    }
+    .row54{
+        display: flex;
+        flex-direction: row;
+    }
+    .phonecenter123{
+        margin-top: 270px;
+        margin-left: 30px;
+    }
+    .right{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 100%;
+    }
+    .left{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        margin-left: 210px;
+        border: 2px solid black;
+        border-radius: 100%;
+    }
+    .all5 div{
+        margin-right: 60px;
+        width: 479px;
+    }
+    .ALL{
+        width: 479px;
+    }
+    body{
+        margin: 0px;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+    .button6{
+        background: none;
+        border: none;
+        color: #008FFF;
+    }
+    body footer{
+        overflow-x: hidden;
+        width: 479px;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+    .two234 h1{
+        color: white;
+        font-size: 50px;
+        font-family: sans-serif;
+    }
+    .two234{
+        margin-left: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* .people1 div{
+        margin-left: 40px;
+    } */
+    .centertag{
+        display: flex;
+        justify-content: center;
+    }
+    .aes{
+        width: 150px;
+    }
+    /* .foo7 div{
+        display: flex;
+        justify-content: center;
+    } */
+    /* .allpeople{
+        display: flex;
+        justify-content: center;
+    } */
+    .center12{
+        /* margin-right: 100px; */
+        display: flex;
+        justify-content: center;
+    }
+    .peopla{
+        display: flex;
+        justify-content: center;
+    }
+    .center22{
+        display: flex;
+        justify-content: center;
+    }
+    .displaynone{
+        display: none;
+    }
+    .faint{
+        display: none;
+    }
+    .special6243{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .raah{
+        display: center;
+        justify-content: flex;
+    }
+    .raah img{
+        width: 420px;
+        height: 300px;
+    }
+    .phonesocials img{
+        height: 24px;
+        width: 24px;
+    }
+    .phonesocials p{
+        font-family: sans-serif;
+    }
+    .images{
+        border: 2px solid;
+        border-color: black;
+    }
+    .images img{
+        border: 2px solid;
+        border-color: black;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .img{
+        display: none;
+        width: 624px;
+        height: 1009px;
+        background-image: url(/assets/asset1.jpeg);
+        margin-left: 50px;
+    }
+    
+    .group2{
+        display: none;
+    }
+
+    .one{
+        margin: 1px;
+        font-family: sans-serif, solid;
+        font-weight: 900;
+        size: 80px;
+        color: #324254;
+    }
+    .two{
+        margin: 1px;
+        font-family: sans-serif, solid;
+        font-weight: 900;
+        size: 80px;
+        color: #324254;
+    }
+    .special {
+        margin-top: 15px;
+        margin: 1px;
+        font-family: sans-serif, solid;
+        font-weight: 900;
+        border: 1px;
+        border-color: #324254;
+        color: #324254;
+    }
+    .title{
+        padding: 1px;
+    }
+    .title h1{
+        font-size: 50px;
+    }
+    .logo1{
+        margin-bottom: 50px;
+        margin-top: 25px
+    }
+    .all1{
+        display: flex;
+        /* justify-content: flex; */
+    }
+    .all2{
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    .text1{
+        font-family: sans-serif;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 15px;
+    }
+    .row1 button{
+        size: 18px;
+        height: 54px;
+    }
+    .row2 button{
+        size: 18px;
+        height: 54px;
+    }
+    .row3 button{
+        size: 18px;
+        height: 54px;
+    }
+    .foo{
+        border: none;
+        border-radius: 7px;
+        size: 18px;
+        padding-left: 16px;
+        padding-top: auto;
+        padding-right: 16px;
+        padding-bottom: auto;
+        margin: 6px;
+        border-color: #D4D6D7;
+    }
+    .enter{
+        margin-top: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 6px;
+        border-radius: 7px;
+        font-size: 20px;
+        margin-top: 70px;
+        box-shadow: 7px 10px 10px #0091ff68;
+        background-color: #008FFF;
+        border: #008FFF;
+        color: white;
+    }
+    .img{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        padding-right: 1px;
+    }
+    .special1{
+        background-color: rgba(0, 0, 0, 0.486);
+        width: 624px;
+    }
+    .special2{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 624px;
+    }
+    .special3{
+        margin-top: 0px;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction: column;
+        width: 624px;
+        height: 1009px;
+    }
+    .logo2{
+        margin-top: 30px;
+        margin-left: 555px;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 25px;
+        height: 25px;
+    }
+    .button1{
+        background: none;
+        border: none;
+        padding-right: 0px;
+        padding-left: 15px;
+        margin-left: 526px;
+        width: 100px;
+        height: 300px;
+    }
+    .special4{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 624px;
+        height: 1009px;
+        margin-top: 0px;
+        margin-bottom: auto;
+        padding: 10px;
+    }
+    .special1{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-right: 9px;
+        width: 304px;
+        height: 105px;
+    }
+    .text2{
+        font-family: sans-serif;
+        color: white;
+        margin-left: 20px;
+    }
+    .row11 img{
+        height: 24px;
+        width: 24px;
+    }
+    .row11{
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    .logo2{
+        margin-right: 50px;
+    }
+    .group3{
+        margin-left: 50px;
+        display: inline-block;
+    }
+    .group4{
+        width: 600px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .group5{
+        margin-right: 200px;
+        margin-top: 50px;
+        display: inline-block;
+        height: 500px;
+        /* width: 590px; */
+    }
+    .all6{
+        margin-top: 170px;
+        display: block;
+    }
+    .all4{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    .all3{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    .all5{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+        margin-left: 100px;
+    }
+    .foo1{
+        margin-right: 50px;
+    }
+    .img1{
+        height: 442px;
+        width: 590px;
+    }
+    .group4 img{
+        height: 442px;
+        width: 590px;
+    }
+    .img2{
+        height: 442px;
+        width: 590px;
+    }
+    .foo2{
+        display: flex;
+        justify-content: center;
+    }
+    /* .group5{
+        display: flex;
+        flex-direction: row;
+    } */
+    .foo3{
+        height: 600px;
+        overflow: hidden;
+        display: block;
+    }
+    /* .group6{
+        margin-left: 50px;
+    } */
+    .group7{
+        margin-right: 50px;
+    }
+    .all5{
+        margin-bottom: 50px;
+        margin-top: 150px;
+    }
+    .group6{
+        height: 442px;
+        width: 590px;
+    }
+    .title2{
+        color: #324254;
+        font-family: sans-serif;
+        width: 200px;
+    }
+    .text3{
+        color: #324254;
+        font-family: sans-serif;
+        width: 300px;
+    }
+    .button2{
+        width: 158px;
+        height: 70px;
+        border-radius: 10px;
+        background-color: #324254;
+        border: none;
+        color: white;
+        font-family: sans-serif;
+    }
+    .allmax1{
+        overflow: hidden;
+        width: 479px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .button3{
+        background: none;
+        border: none;
+        color: #008FFF;
+        font-family: sans-serif;
+    }
+    .people{
+        display: inline-block;
+        justify-content: flex;
+        overflow: none;
+    }
+    .displayinline{
+        display: none;
+    }
+    .man1{
+        display: block;
+        width: 430px;
+        height: 240px;
+        background-color: #3242540a;
+        border-radius: 10px;
+    }
+    .text4{
+        width: 410px;
+        height: 72px;
+    }
+    .img2{
+        padding: 15px;
+        height: 60px;
+        width: 60px;
+    }
+    .foo4{
+        display: inline-block;
+        justify-content: flex;
+    }
+    .title3{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: sans-serif;
+    }
+    .text5{
+        color: #324254;
+        margin-top: 0px;
+        font-family: sans-serif;
+    }
+    .text4{
+        color: #324254;
+        margin: 15px;
+        font-family: sans-serif;
+    }
+    .reviews div{
+        display: flex;
+        flex-direction: row;
+        /* margin-left: 150px; */
+    }
+    .reviews h1{
+        margin-left: 30px;
+        /* margin-right: 10px; */
+        color: #324254;
+        color: black;
+        font-family: sans-serif;
+    }
+    .reviews{
+        display: flex;
+        align-content: space-between;
+        width: 479px;
+    }
+    .foo5{
+        display: inline-block;
+        justify-content: flex;
+    }
+    .text6{
+        overflow: none;
+        opacity: 50%;
+        color: #324254;
+        margin-top: 0px;
+        font-family: sans-serif;
+    }
+    .title4{
+        display: flex;
+        overflow: none;
+    }
+    /* .faint{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        opacity: 50%;
+        display: flex;
+        justify-content: center;
+    } */
+    .img3{
+        padding: 15px;
+        height: 60px;
+        width: 60px;
+        opacity: 50%;
+    }
+    .ajs{
+        overflow: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .jso{
+        overflow: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .uuu{
+        display: flex;
+        overflow: none;
+    }
+    .img4{
+        height: 211px;
+        width: 211px;
+    }
+    /* for phone only!!!!!!!!! */
+    .people1{
+        display: block;
+    }
+    .row12{
+        display: inline-block;
+    }
+    .row22{
+        display: inline-block;
+    }
+
+    .button4{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .button41{
+        width: 100px;
+        height: 50px;
+        background: none;
+        border: 1px solid #324254;
+        color: #324254;
+        border-radius: 5px;
+    }
+    .title5{
+        color: #324254;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    /* .ute{
+        /* margin-left: 10px;
+        margin-right: 10px;
+    } */
+    .ute img{
+        height: 174px;
+        width: 174px;
+    }
+    .text7{
+        color: #324254;
+        font-family: sans-serif;
+    }
+    .text8{
+        color: #324254;
+        font-family: sans-serif;
+        margin-left: 10px;
+    }
+    .foo7{
+        margin-right: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .closed{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+    .arrow1{
+        margin-left: 210px;
+    }
+    .arrow2{
+        margin-left: 220px;
+    }
+    .arrow3{
+        margin-left: 210px;
+    }
+    .arrow4{
+        margin-left: 210px;
+    }
+    .border1{  /*  FAQ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+        width: 400px;
+        padding: 10px;
+        border: none;
+        margin-bottom: 15px;
+        background-color: #32425411;
+    }
+    .border{
+        width: 400px;
+        border: 1px solid #324254;
+        margin-bottom: 15px;
+    }
+    .border2{
+        width: 400px;
+        border: 1px solid #324254;
+    }
+    .border3{
+        width: 400px;
+        border: 1px solid #324254;
+        margin-bottom: 15px;
+        margin-top: 45px;
+    }/*  FAQ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    .special5{
+        margin-left: 15px;
+        color: #324254;
+        font-family: sans-serif;
+    }
+    .u{
+        font-family: sans-serif;
+        color: #324254;
+    }
+    .closed p{
+        color: #324254;
+        font-family: sans-serif;
+    }
+    .foo7{
+        margin-left: 45px;
+        margin-top: 285px;
+        margin-bottom: 150px;
+    }
+    footer{
+        height: 900px;
+        background-image: linear-gradient(rgb(45, 49, 101), rgb(28, 30, 51));
+    }
+    .center{
+        margin-right: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .u h1{
+        color: white;
+        font-family: sans-serif;
+        font-size: 50px;
+        margin-top: 130px;
+    }
+    .one1{
+        display: none;
+    }
+    .two2{
+        display: flex;
+        flex-direction: column;
+    }
+    .button5{
+        background-color: #008FFF;
+        border-radius: 7px;
+        border-color: #008FFF;
+        color: white;
+        width: 180px;
+        height: 50px;
+    }
+    .terms{
+        color: white;
+        font-family: sans-serif;
+        display: inline-block;
+        margin-right: 35px;
+    }
+    .terms1{
+        color: white;
+        font-family: sans-serif;
+        display: inline-block;
+        margin-right: 35px;
+    }
+    .terms2{
+        color: white;
+        font-family: sans-serif;
+        display: inline-block;
+    }
+    .details p{
+        color: #324254;
+        font-family: sans-serif;
+    }
+    .three3{
+        font-family: sans-serif;
+        color: #324254;
+    }
+    .foo6{
+        margin: 10px;
+    }
+    .one12{
+        display: flex;
+    }
+    .four4{
+        margin-left: 500px;
+    }
+    .phone1{
+        display: none;
+    }
+    /* .oisdzjv{
+        margin-right: 150px;
+    }
+    .rews{
+        margin-right: 300px;
+    }
+    .oisdzjv1{
+        margin-right: 150px;
+        margin-bottom: 100px;
+    } */
+    .button3{
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+}
